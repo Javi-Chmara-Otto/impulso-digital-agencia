@@ -120,19 +120,25 @@
                 </a>
             </div>
 
-            <!-- Dashboard/Web Mockup Preview -->
+            <!-- Dashboard/Web Mockup Preview (Equipo trabajando) -->
             <div class="mt-20 relative max-w-5xl mx-auto">
                 <div class="rounded-2xl border border-gray-200/60 bg-white shadow-2xl overflow-hidden p-2">
-                    <div class="rounded-xl overflow-hidden relative aspect-[16/9] bg-gray-100">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop" alt="Ejemplo de diseño web de alta conversión" class="object-cover w-full h-full opacity-90">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent flex items-end p-8">
-                            <div class="bg-white/90 backdrop-blur rounded-lg p-4 shadow-lg inline-flex items-center gap-4">
-                                <div class="bg-green-100 text-green-600 p-2 rounded-full">
+                    <div class="rounded-xl overflow-hidden relative aspect-[16/9] group">
+                        <!-- Fotografía de equipo trabajando -->
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop" alt="Equipo de expertos trabajando en computadoras" class="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105">
+                        
+                        <!-- Degradado oscuro en la base para que resalte la etiqueta -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none"></div>
+                        
+                        <!-- Etiqueta superpuesta flotante -->
+                        <div class="absolute inset-0 flex items-end p-6 md:p-8 pointer-events-none z-10">
+                            <div class="bg-white/95 backdrop-blur rounded-xl p-4 shadow-2xl inline-flex items-center gap-4 transform transition-transform duration-300 group-hover:-translate-y-2">
+                                <div class="bg-green-100 text-green-600 p-2.5 rounded-full shadow-inner">
                                     <i data-lucide="trending-up" class="w-6 h-6"></i>
                                 </div>
                                 <div>
-                                    <p class="text-sm font-bold text-gray-900">+240% Conversión</p>
-                                    <p class="text-xs text-gray-500">Cliente promedio en 30 días</p>
+                                    <p class="text-sm md:text-base font-extrabold text-gray-900">+240% Conversión</p>
+                                    <p class="text-xs md:text-sm text-gray-500 font-medium">Equipo enfocado en tu éxito</p>
                                 </div>
                             </div>
                         </div>
